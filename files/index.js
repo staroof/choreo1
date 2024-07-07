@@ -9,7 +9,7 @@ const NEZHA_KEY = process.env.NEZHA_KEY || '5ddVS93Eq0Uc9he880';
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo.shoponline.eu.org';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZDc0NDg5MjcwODkzOTQyM2ZmMDJkZjQ0OTM4NjUxM2QiLCJ0IjoiYzI0NjYxNmMtMWY1NC00NmU4LTlhMDAtMTc5ZjllNmNiODhiIiwicyI6Ik1EUTJZbVJqWm1JdE1tSTFNaTAwTUdZekxXSTBNbVV0WkRobU5qRmxOVEExWVdJNCJ9';
 const CFIP = process.env.CFIP || 'na.ma';
-const NAME = process.env.NAME || 'Choreo';
+const NAME = process.env.NAME || 'Choreo1';
 
 // root route
 app.get("/", function(req, res) {
